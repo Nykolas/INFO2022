@@ -1,0 +1,11 @@
+
+#DADO EL MONTO DE COMPRA DE UN CLIENTE, OFRECER UN DESCUENTO DEL 10%
+#SIEMPRE Y CUANDO LA COMPRA SEA MAYOR A #10000
+
+monto = float(input("INGRESE EL MONTO TOTAL DE SU COMPRA: "))
+
+if (monto > 10000):
+	monto = monto * 0.9 #(HACE UN 10% DESCUENTO)
+	#monto = monto - (monto * 10/100)
+	
+print(f"EL MONTO TOTAL A PAGAR ES DE ${monto}")
