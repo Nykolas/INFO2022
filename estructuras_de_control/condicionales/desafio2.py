@@ -15,7 +15,7 @@ print("2- DEBAJO DE LO NORMAL")
 print("3- ENCIMA DE LO NORMAL")
 print("4- SOBREDIMENSIONADO")
 
-tamaño = input("INGRESE ALGUNA DE LAS OPCIONES\t")
+tamaño = input()
 
 if tamaño == "1":
 	print("Pez en buenas condiciones")
