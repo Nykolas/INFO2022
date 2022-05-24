@@ -43,5 +43,31 @@ while (termino):
 '''
 
 # FOR
+'''
+N = 10
+N = int(input("INGRESE LA CANTIDAD"))
 
-#CONTINUARA.....................
+for (i = 1 hasta N; i + 1) {
+	# i siempre siempre es un entero
+}
+'''
+
+#iterable : Cualquier estructura de datos que sea iterable.
+
+# nicolas
+#(1,2,3,4,5,6) tupla 
+#[1,2,3,4,5] lista
+#{clave:valor} diccionario
+#objetos
+
+# Rango --> (vi,vf,incremnto) ---> (1,10,1)--> (1,2,3,4,5,6,7,8,9)
+#POR DEFECTO EL vi = 0, y el incremento = 1
+# (5) --> (0,1,2,3,4)
+
+
+print("FOR-------")
+n = int(input("ingrese cuantos numeros quiere mostrar "))
+
+for i in range(n):
+	print(i)
+
