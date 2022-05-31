@@ -64,10 +64,14 @@ for (i = 1 hasta N; i + 1) {
 #POR DEFECTO EL vi = 0, y el incremento = 1
 # (5) --> (0,1,2,3,4)
 
-
+'''
 print("FOR-------")
 n = int(input("ingrese cuantos numeros quiere mostrar "))
 
 for i in range(n):
 	print(i)
 
+'''
+
+print("nico", end="/")
+print("tortosa")
