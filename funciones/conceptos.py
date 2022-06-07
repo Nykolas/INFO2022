@@ -18,11 +18,21 @@ def suma(a,b):
 
 #------MI PROGRAMA---------
 #saludar()
+#--------------------------
 #NYA = obtenerNombre()
+#--------------------------
+#x = float(input("INGRESA VALOR 1:\t"))
+#y = float(input("INGRESA VALOR 2:\t"))
+#r = suma(x,y)
+#print(F"el resultado es {r}")
+#--------------------------
 
-x = float(input("INGRESA VALOR 1:\t"))
-y = float(input("INGRESA VALOR 2:\t"))
+#PARAMETRO POR DEFECTO
+def mostrar(a=50, b=70, c=1000):
 
-r = suma(x,y)
+	print(f"valor a: {a}")
+	print(f"valor b: {b}")
+	print(f"valor c: {c}")
 
-print(F"el resultado es {r}")
+
+mostrar(b=10, a ="nico", c = 8)
