@@ -57,6 +57,9 @@ class Profesor(Persona):
 a = Alumno(30333444,'Nicolas','M',17888,'ISI')
 p = Profesor(32555998,'Maria','F',18999,10)
 
+'''
 print(a.getNombre())
 print("")
 print(p.getNombre())
+'''
+print(a.__dir__())
